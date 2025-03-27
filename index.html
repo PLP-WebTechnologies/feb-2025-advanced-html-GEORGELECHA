@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>List of the Modules I take at PLP FEB Cohort</h3>
+    <ol type="i">
+        <li>Software Engineering</li>
+        <li>Database Development</li>
+        <li>StartUp Building</li>
+        <li>Python Dev</li>
+        <li>Web Development</li>
+    </ol>
+
+    <h3>External Image from Pexels.com</h3>
+
+    <img src="Images/silver-sedan-with-red-lights-parked-port.jpg" alt="Image of a programmer coding" width="auto"
+        height="100vh">
+
+    <h3>Contact Table</h3>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Instructtor Eddy</td>
+                <td>00111</td>
+                <td>+254111111111</td>
+                <td>Eddy@powerlearnproject.org</td>
+            </tr>
+
+            <tr>
+                <td>Gerald Muchechedreze</td>
+                <td>0103300</td>
+                <td>+2671000100</td>
+                <td>Gerald@powerlearn.org</td>
+            </tr>
+
+            <tr>
+                <td>Nelly</td>
+                <td>01000000</td>
+                <td>+23300100100</td>
+                <td>gnelly@test.com</td>
+            </tr>
+
+
+            <tr>
+                <td>McOnyango</td>
+                <td>01002220</td>
+                <td>+234678300100</td>
+                <td>mcoonyango@test.com</td>
+            </tr>
+
+
+            <tr>
+                <td>Atieno McSwain</td>
+                <td>010000998</td>
+                <td>+25400100100</td>
+                <td>mcswain@plp.com</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tfoot>
+
+
+
+    </table>
+
+    <form action="#" id="signUp">
+        <div class="input-group">
+            <div class="input-field" id="nameField">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" name="name" placeholder="Name">
+
+            </div>
+            <div class="error-message" id="nameError"></div>
+
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Email">
+
+            </div>
+            <div class="error-message" id="emailError"></div>
+
+            <div class="input-field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" name="password" placeholder="Password">
+            </div>
+            <div class="error-message" id="passwordError"></div>
+
+            <div class="input-field" id="passwordField">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password"
+                    required>
+            </div>
+            <div class="error-message" id="confirmPasswordError"></div>
+
+            <div class="input-field" id="ageField">
+                <i class="fa-regular fa-user"></i>
+                <input type="number" id="age" name="age" placeholder="Age" min="0" required>
+            </div>
+            <div class="error-message" id="ageError"></div>
+
+
+            <div class="gender-section" id="genderField">
+
+                <span>Gender:</span>
+                <div class="gender-options">
+
+                    <div class="gender-option">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="gender-opition">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <div class="gender-option">
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="error-message" id="genderError"></div>
+
+            <div class="country-container" id="countryField">
+                <label for="country">Country</label>
+                <div class="select-wrapper">
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Select a country</option>
+                        <option value="KE">Kenya</option>
+                        <option value="UG">Uganda</option>
+                        <option value="TZ">Tanzania</option>
+                        <option value="SM">Somalia</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="SA">South Africa</option>
+                        <option value="SD">Sudan</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="error-message" id="countryError"></div>
+
+            <div class="terms-container" id="termsField">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the Terms and Conditions</label>
+            </div>
+            <div class="error-message" id="termsError"></div>
+        </div>
+
+
+        <button class="btn-submit" type="submit">Sign Up</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
